@@ -1,0 +1,68 @@
+body{
+    height: 100rem;
+   
+}
+.mainBox{
+   background-image:linear-gradient(to right ,rgb(89, 169, 133) 35rem,#2da16d);
+    width: 100rem;
+    height: auto;
+}
+
+
+.menuBox{
+background-color: white;
+color:#62646a;
+margin-left: 15rem;
+margin-right: 30rem;
+margin-top: 3rem;
+border-radius: 2.5rem;
+width:50rem;
+
+font-weight: bolder;
+font-size: xx-large;
+padding-top: 5rem;
+height: auto;
+}
+
+
+.loginHeading{
+    margin-left: 20rem;
+}
+.inputBox{
+    border-top: 0rem ;  border-left: 0rem; border-right: 0rem;
+    padding-left: 2rem;
+    border-color: rgb(206, 204, 204);
+    font-family: Edu SA Beginner ;
+    font-size: large;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    width: 40rem;
+    text-align:middle;
+}
+.content{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: large;
+}
+.bttn{
+    background-image:linear-gradient(to right ,rgb(89, 169, 133) 35%,#2da16d);
+    width: 40rem;
+    color: white;
+    font-family: Edu SA Beginner ;
+    font-size: large;
+    height: 3rem;
+    text-align: center;
+    border-radius: 10rem;
+    cursor: pointer;
+    border: 0;
+    
+}
+.lowerButton{
+    border: 0rem;
+    background-color: white;
+    font-family: Edu SA Beginner ;
+    font-size: large;
+    cursor: pointer;
+    margin-left: 18rem;
+}
+

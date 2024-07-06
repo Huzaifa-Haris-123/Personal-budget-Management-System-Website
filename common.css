@@ -1,0 +1,125 @@
+/* Navigation Bar */
+.navBar {
+  width: 100%;
+  height: 10vh; 
+  background-image: linear-gradient(to right, rgb(89, 169, 133) 35rem, #2da16d);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+}
+
+.navBar a {
+  padding-top: 2rem;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+  transition: color 0.3s ease; 
+}
+
+.navBar a:hover {
+  color: #62646a;
+}
+
+/* Side Bar */
+.sideBar {
+  width: 10%; 
+  height: 100vh; 
+  padding-top: 10px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1rem;
+  background-color: #f7f7f7; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 0 0 10%; /* Add this rule */
+}
+
+.sideBar a {
+  text-decoration: none;
+  color: #62646a;
+  transition: color 0.3s ease; 
+}
+
+.sideBar a:hover {
+  color: #1dbf73;
+}
+
+/* Main Box */
+/* Main Box */
+.mainbox {
+  display: flex;
+  height: 100vh;
+}
+
+.rightmainbox {
+  display: flex;
+  flex-direction: column; 
+  height: 100%;
+  width: calc(90% - 25px); 
+  align-items: center;
+  padding-left: 25px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  align-items: center;
+}
+
+.rightmainbox table {
+  width: 70%;
+  table-layout: fixed;
+  margin-left: 20%;
+  border-collapse: collapse;
+}
+
+
+.rightmainbox th,.rightmainbox td {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+  vertical-align: top;
+}
+
+.rightmainbox th {
+  background-color: #f0f0f0;
+}
+
+/* Logo */
+.logo {
+  margin-top: -1rem;
+  height: 6rem;
+}
+
+/* Income */
+.income {
+  height: 0.1rem;
+  padding: 1rem;
+  background-color: #1dbf73; 
+  border-radius: 10px; 
+}
+
+/* Input Class */
+.inputClass {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+#line_top_x{
+
+  margin-left: 200px;
+}
+.inp {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Add this rule */
+  margin: 10rem 40rem 10rem 40rem; /* Add some margin to create space around the input */
+}
+.entry1{
+  padding-top: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+ 
+}
